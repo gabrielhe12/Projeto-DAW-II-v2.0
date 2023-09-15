@@ -1,0 +1,232 @@
+/*------------- FORMATAÇÕES GERAIS -------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+a {
+    text-decoration: none;
+}
+
+.desenvolvendo {
+    height: 100vh;
+    color: #8b0000;
+}
+
+.desenvolvendo h3 {
+    text-align: center;
+    padding-top: 50vh;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+/*-------------------- MENU --------------------*/
+nav#menu-principal {
+    background: #8b0000;
+}
+
+nav#menu-principal #menu {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*------- ÁREA LOGO -------*/
+
+nav#menu-principal div#area-logo {
+    width: 70%;
+}
+
+nav#menu-principal div#area-logo h1 {
+    color: white;
+    padding: 10px;
+    font-size: 1.8em;
+    text-shadow: black 3px 3px;
+    display: inline-block;
+}
+
+nav#menu-principal div#area-logo h1:hover {
+    text-shadow: black -3px -3px;
+}
+
+nav#menu-principal div#area-logo .games {
+    color: rgb(204, 83, 83);
+}
+
+/*------- ÁREA LINKS -------*/
+nav#menu-principal ul#area-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    width: 30%;
+}
+
+nav#menu-principal ul#area-nav li {
+    list-style-type: none;
+    margin: 5px;
+}
+
+nav#menu-principal ul#area-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 7px;
+}
+
+nav#menu-principal ul#area-nav li a:hover {
+    color: #8b0000;
+    background: white;
+    border-radius: 3px;
+}
+
+/*------- SUBHEADER -------*/
+#subheader {
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background: #b22222;
+}
+
+#frase {
+    font-size: 0.9em;
+}
+
+/*-------------------- CONTEÚDO --------------------*/
+.pagina {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*-------------------- FOOTER --------------------*/
+footer {
+    color: white;
+    background: #8b0000;
+}
+
+/*------- REDES SOCIAIS -------*/
+ul#redes-sociais {
+    text-align: center;
+    padding: 10px;
+}
+
+#social-gabriel, #social-daniel {
+    display: inline-block;
+}
+
+.rede-social {
+    padding: 3px 10px;
+}
+
+.icon-email {
+    width: 18px;
+    float: left;
+}
+
+.icon-in {
+    width: 16px;
+    float: left;
+}
+
+footer #redes-sociais a {
+    color: white;
+}
+
+#redes-sociais li {
+    display: inline-block;
+    text-indent: 3px;
+}
+
+footer #redes-sociais a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/*Maioria dos smartphones*/
+@media (min-width: 320px) and (max-width: 480px) {
+    /*---------- MENU ----------*/
+    nav#menu-principal #menu {
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav#menu-principal ul#area-nav {
+        justify-content: center;
+    }
+
+    #subheader {
+        padding: 7px;
+    }
+
+    /*---------- CONTEÚDO ----------*/
+    .pagina {
+        width: 94%;
+        padding: 0% 3%;
+    }
+
+    /*---------- FOOTER ----------*/
+    #redes-sociais,
+    #social-gabriel,
+    #social-daniel {
+        display: block;
+    }
+
+    footer li.rede-social {
+        display: block;
+        width: 90%;
+    }
+
+    footer ul#redes-sociais {
+        text-align: left;
+    }
+}
+
+/*Tablets de baixas resoluções e celulares*/
+@media (min-width: 481px) and (max-width: 767px) {
+    /*---------- MENU ----------*/
+    nav#menu-principal #menu {
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav#menu-principal ul#area-nav {
+        justify-content: center;
+    }
+
+    #subheader {
+        padding: 7px;
+    }
+
+    /*---------- CONTEÚDO ----------*/
+    .pagina {
+        width: 94%;
+        padding: 0% 3%;
+    }
+
+    /*---------- FOOTER ----------*/
+    footer #redes-sociais {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*Tablets grandes*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+}

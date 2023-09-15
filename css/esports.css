@@ -1,0 +1,172 @@
+/*------- NOTÍCIAS -------*/
+#pg-esports {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#pg-esports h2 {
+    color: #8b0000;
+    font-size: 1.8em;
+    margin: 5px 0px;
+}
+
+#pg-esports a {
+    display: inline-block;
+    width: 49%;
+    margin: 1% 0%;
+}
+
+#area-noticias {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 1%;
+    border-bottom: 2px solid #8b0000;
+}
+
+.postagem {
+    width: 96%;
+    background: white;
+    border: 1px solid #8b0000;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.postagem img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/*------- TABELAS -------*/
+#area-tabelas {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#area-tabelas h2 {
+    text-align: center;
+    margin: 1%;
+}
+
+#tabelas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabela {
+    width: 30%;
+    background: white;
+    border: 1px solid #8b0000;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.tabela table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tabelas h3 {
+    text-align: center;
+    background: #8b0000;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 1.3em;
+}
+
+.tabela th {
+    color: #8b0000;
+}
+
+.tabela th, .tabela td {
+    
+    padding: 8px;
+}
+
+.tabela td, .tabela .td {
+    border-bottom: 1px solid #8b0000;
+}
+
+.ultima-linha td, .ultima-linha th {
+    border-bottom: 0px solid white;
+    padding-bottom: 0px;
+}
+
+/*Maioria dos smartphones*/
+@media (min-width: 320px) and (max-width: 480px) {
+    /*---------- NOTÌCIAS ----------*/
+    #area-noticias {
+        flex-direction: column;
+    }
+
+    #area-noticias a {
+        width: 100%;
+    }
+
+    /*---------- TABELAS ----------*/
+    #area-tabelas h2 {
+        margin-bottom: 0px;
+    }
+
+    #tabelas {
+        flex-direction: column;
+    }
+
+    .tabela {
+        width: 98%;
+        margin-top: 2%;
+    }
+}
+
+/*Tablets de baixas resoluções e celulares*/
+@media (min-width: 481px) and (max-width: 767px) {
+    /*---------- NOTÍCIAS ----------*/
+    #area-noticias {
+        flex-direction: column;
+    }
+
+    #area-noticias a {
+        width: 100%;
+    }
+
+    /*---------- TABELAS ----------*/
+    #area-tabelas h2 {
+        margin-bottom: 0px;
+    }
+
+    #tabelas {
+        flex-direction: column;
+    }
+
+    .tabela {
+        width: 98%;
+        margin-top: 2%;
+    }
+}
+
+/*Tablets grandes*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    /*---------- ESPORTS ----------*/
+    #area-noticias {
+        flex-direction: column;
+    }
+
+    #area-noticias a {
+        width: 100%;
+    }
+
+    /*---------- TABELAS ----------*/
+    #area-tabelas h2 {
+        margin-bottom: 0px;
+    }
+
+    #tabelas {
+        flex-direction: column;
+    }
+
+    .tabela {
+        width: 98%;
+        margin-top: 2%;
+    }
+}

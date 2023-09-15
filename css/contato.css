@@ -1,0 +1,112 @@
+#pg-contato {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#pg-contato div {
+    margin: 0.5%;
+}
+
+#header-contato, #fale-conosco, #atendimento-cliente {
+    width: 100%;
+}
+
+#pg-contato h2, #pg-contato h3 {
+    margin-bottom: 15px;
+    color: #8b0000;
+}
+
+#chat, #sac {
+    flex-grow: 2;
+}
+
+#pg-contato .container {
+    background: white;
+    border: 1px solid #8b0000;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#fale-conosco a, #sac a {
+    color: #8b0000;
+    font-weight: bold;
+}
+
+#fale-conosco a:hover, #sac a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    float: left;
+    width: 20px;
+}
+
+#icon-email {
+    float: left;
+    width: 25px;
+}
+
+#pg-contato h3 {
+    text-indent: 5px;
+}
+
+#pg-contato label {
+    color: #8b0000;
+    font-weight: bold;
+    display: block;
+}
+
+#pg-contato input {
+    width: 40%;
+    margin-bottom: 1%;
+}
+
+#pg-contato textarea {
+    width: 40%;
+    height: 100px;
+    display: block;
+    margin-bottom: 1%;
+}
+
+#pg-contato .botao {
+    background: #b22222;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 10px;
+    font-weight: bold;
+    margin: 0px;
+    width: auto;
+}
+
+#pg-contato .botao:hover {
+    background: white;
+    color: #b22222;
+    outline: 1px solid #8b0000;
+    outline-offset: -1px;
+}
+
+#chat p, #sac p {
+    margin-bottom: 2%;
+}
+
+/*Maioria dos smartphones*/
+@media (min-width: 320px) and (max-width: 480px) {
+    #pg-contato input, #pg-contato textarea {
+        width: 100%;
+    }
+
+    #pg-contato .botao {
+        width: 100%;
+    }
+}
+
+/*Tablets de baixas resoluções e celulares*/
+@media (min-width: 481px) and (max-width: 767px) {
+    #pg-contato input, #pg-contato textarea {
+        width: 50%;
+    }
+}
