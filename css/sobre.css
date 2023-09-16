@@ -106,6 +106,51 @@
 
 #conteudo3 {
     height: 100vh;
+    text-align: center;
+}
+
+#conteudo3 h2 {
+    font-size: 3.4em;
+    padding: 1%;
+    color: #8b0000;
+    font-variant: small-caps;
+}
+
+#area-valores {
+    width: 80%;
+    margin: 3% 0%;
+}
+
+#conteudo3 #valores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#conteudo3 #valores div {
+    background: white;
+    border: 1px solid #8b0000;
+    border-radius: 10px;
+    margin: 0.5% 0px;
+}
+
+#conteudo3 #valores h3 {
+    color: #8b0000;
+    font-size: 1.8em;
+    padding-top: 3%;
+}
+
+#conteudo3 #valores p {
+    font-size: 1.4em;
+    padding: 3%;
+}
+
+.linha1 {
+    width: 32%;
+}
+
+.linha2 {
+    width: 49%;
 }
 
 /*Maioria dos smartphones*/
@@ -144,6 +189,34 @@
         width: 25%;
         margin: 0px;
         margin-left: 50px;
+    }
+
+    /*---------- CONTEÚDO 3 ----------*/
+    #conteudo3 #valores {
+        flex-direction: column;
+    }
+
+    #conteudo3 #valores div {
+        width: 100%;
+    }
+
+    #area-valores {
+        margin: 0%;
+        width: 98%;
+    }
+
+    #conteudo3 h2 {
+        font-size: 1.9em;
+    }
+
+    #conteudo3 #valores h3 {
+        padding: 1%;
+        font-size: 1.1em;
+    }
+
+    #conteudo3 #valores p {
+        font-size: 1em;
+        padding: 0% 0% 2% 0%;
     }
 }
 
@@ -185,6 +258,34 @@
         margin: 0px;
         margin-left: 50px;
     }
+
+    /*---------- CONTEÚDO 3 ----------*/
+    #conteudo3 #valores {
+        flex-direction: column;
+    }
+
+    #conteudo3 #valores div {
+        width: 100%;
+    }
+
+    #area-valores {
+        margin: 0%;
+        width: 95%;
+    }
+
+    #conteudo3 h2 {
+        font-size: 2.4em;
+    }
+
+    #conteudo3 #valores h3 {
+        padding: 1%;
+        font-size: 1.4em;
+    }
+
+    #conteudo3 #valores p {
+        font-size: 1.1em;
+        padding: 0% 0% 2% 0%;
+    }
 }
 
 /*Tablets grandes*/
@@ -219,5 +320,18 @@
         width: 25%;
         margin: 0px;
         margin-left: 50px;
+    }
+
+    /*---------- CONTEÚDO 3 ----------*/
+    #conteudo3 #valores {
+        flex-direction: column;
+    }
+
+    #conteudo3 #valores div {
+        width: 100%;
+    }
+
+    #area-valores {
+        margin: 5% 0%;
     }
 }
