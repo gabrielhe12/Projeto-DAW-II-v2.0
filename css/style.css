@@ -193,6 +193,11 @@ footer #redes-sociais a:hover {
     footer ul#redes-sociais {
         text-align: left;
     }
+    /*------VÍDEOS------*/
+    .video, .video2 {
+        width: 355px; 
+        height: 250px;
+    }
 }
 
 /*Tablets de baixas resoluções e celulares*/
@@ -224,9 +229,21 @@ footer #redes-sociais a:hover {
         display: flex;
         flex-direction: column;
     }
+    /*------VÍDEOS------*/
+    .video, .video2 {
+        width: 400px; 
+        height: 250px;
+        margin-bottom: 4%;
+        margin-top: 3%;
+        display: flex;
+    }
 }
 
 /*Tablets grandes*/
 @media (min-width: 768px) and (max-width: 1024px) {
-    
+    /*------VÍDEOS------*/
+    .video, .video2 {                       
+        width: 560px; 
+        height: 315px;
+    }
 }
