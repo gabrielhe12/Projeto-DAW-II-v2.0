@@ -83,6 +83,10 @@ iframe {
     .video2 {
         order: 1;
     }
+
+    iframe {
+        width: 100%;
+    }
 }
 
 /*Tablets de baixas resoluções e celulares*/
@@ -129,6 +133,10 @@ iframe {
     .video2 {
         order: 1;
     }
+
+    iframe {
+        width: 100%;
+    }
 }
 
 /*Tablets grandes*/
@@ -170,5 +178,9 @@ iframe {
 
     .video2 {
         order: 1;
+    }
+
+    iframe {
+        width: 80%;
     }
 }
